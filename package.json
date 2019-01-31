@@ -1,0 +1,38 @@
+{
+  "name": "ffc-errors",
+  "version": "1.0.0",
+  "description": "Basic error classes for ffc-node and other packages",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "preversion": "git pull && yarn build",
+    "postversion": "git push && git push --tags && npm publish"
+  },
+  "keywords": [
+    "errors",
+    "typescript",
+    "ffc-node"
+  ],
+  "directories": {
+    "lib": "src"
+  },
+  "files": [
+    "dist/",
+    "src/",
+    "test/",
+    ".editorconfig",
+    "tsconfig.json",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=6.9.0"
+  },
+  "repository": "git@github.com:freshfox/ffc-error.git",
+  "author": "Freshfox",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^10.12.20",
+    "typescript": "^3.2.4"
+  }
+}
