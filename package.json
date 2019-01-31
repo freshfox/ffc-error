@@ -1,6 +1,6 @@
 {
   "name": "ffc-errors",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Basic error classes for ffc-node and other packages",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
